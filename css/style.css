@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg-img{
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+}
+.layer{
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.icon-x{
+    color: white;
+    cursor: pointer;
+    font-size: 24px ;
+    top: 20px ;
+    left: 85%;
+    transition-duration: 0.3s;
+}
+.icon-x:hover{
+    color: #7D3C49;
+}
+ul{
+    list-style-type: none;  
+}
+.hover{
+    cursor: pointer;
+    color: white;
+    transition-duration: 0.3s;
+}
+.hover:hover{
+    color: #7D3C49;
+}
+.container-ul{
+    background-color: #414658;
+    z-index: 90000;
+    left: -240px;
+}
+.home-li{
+    padding-top: 25px ;
+}
+.fa-bars{
+    margin-top: 10px ;
+}
+.nav-icon{
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+    z-index: 999999;
+}
+li{
+    margin-top: 30%;
+    margin-right: 100px  ;
+}
+.bg-img-1{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    height: 35vh;
+}
+.layer-2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+
+}
+.color-section1{
+    width: 40%;
+    margin: auto;
+    background-color:rgba(214, 46, 51, 0.6); 
+}
+.containerFade,.containerFade1,.containerFade2,.containerFade3{ 
+    color: white;
+    cursor: pointer;
+}
+.information,.information1,.information2,.information3{
+    display: none;
+    padding: 10px ;
+    background-color: #CCCCCC;  
+}
+.d-block-infor{
+    display: block;
+}
+.p-icon{
+    font-size: 18px 
+}
+.email{
+    
+}
+
+@media screen and(max-width: 720px ) {
+    iframe{
+        width: 500px ;
+        height: 350px ;
+    }
+    .contact-footer {
+        text-align: center;
+        
+    }
+    .contact-footer input{
+        margin: auto;
+    }
+    .contact-footer textarea{
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width: 768px ) and (max-width: 1259px ) {
+    iframe{
+        width: 400px ;
+        height: 250px ;
+    }
+    .contact-footer {
+        text-align: center;
+        
+    }
+    .contact-footer input{
+        margin: auto;
+    }
+    .contact-footer textarea{
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width:1259px ) and (max-width: 1350px ) {
+    iframe{
+        width: 400px ;
+        height: 250px ;
+    }
+    .contact-footer {
+        text-align: center;
+        
+    }
+    .contact-footer input{
+        margin: auto;
+    }
+    .contact-footer textarea{
+        margin: auto;
+    }
+    
+}
